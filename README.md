@@ -16,9 +16,9 @@ $ npm install vue2-scrollspy --save
 ## Basic Usage
 ```js
 import Vue from 'vue';
-import Scrollspy from 'lcc-scrollspy';
+import scrollSpy from 'lcc-scrollspy';
 // use default options
-Vue.use(Scrollspy);
+Vue.use(scrollSpy);
 
 // or custom options
 Vue.use(Scrollspy, options);
