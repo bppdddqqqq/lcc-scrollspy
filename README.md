@@ -1,13 +1,10 @@
 # vue2-scrollspy
 
 [![Vue 2.x](https://img.shields.io/badge/Vue-2.x-brightgreen.svg)](https://vuejs.org/v2/guide/)
-[![npm](https://img.shields.io/npm/v/vue2-scrollspy.svg)](https://www.npmjs.com/package/vue2-scrollspy)
-[![npm-downloades](https://img.shields.io/npm/dm/vue2-scrollspy.svg)](https://www.npmjs.com/package/vue2-scrollspy)
-[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/vue2-scrollspy.svg)](https://www.npmjs.com/package/vue2-scrollspy)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ibufu/vue2-scrollspy/blob/master/LICENSE)
 
 Scrollspy, and animated scroll-to, for Vue2, inspired by [vue-scrollspy](https://github.com/kvdmolen/vue-scrollspy).
-See https://ibufu.github.io/vue2-scrollspy/ or [Jsfiddle](https://jsfiddle.net/ibufu/nw0zczLx/).
+
+This is a corrected fork from : https://ibufu.github.io/vue2-scrollspy/ or [Jsfiddle](https://jsfiddle.net/ibufu/nw0zczLx/).
 
 ## Installation
 
@@ -16,15 +13,10 @@ See https://ibufu.github.io/vue2-scrollspy/ or [Jsfiddle](https://jsfiddle.net/i
 $ npm install vue2-scrollspy --save
 ```
 
-### CDN
-```html
-<script src="//unpkg.com/vue2-scrollspy/dist/index.js"></script>
-```
-
 ## Basic Usage
 ```js
 import Vue from 'vue';
-import Scrollspy from 'vue2-scrollspy';
+import Scrollspy from 'lcc-scrollspy';
 // use default options
 Vue.use(Scrollspy);
 
