@@ -120,7 +120,7 @@ const install = (Vue, options) => {
     const current = scrollEl.scrollTop
 
     if (idScrollSections[index]) {
-      const target = getOffsetTop(idScrollSections[index]) - options.offset
+      const target = getOffsetTop(idScrollSections[index]) - options.offset + 2
       if (options.easing) {
         scrollWithAnimation(scrollEl, current, target, options.time, options.easing)
         return
