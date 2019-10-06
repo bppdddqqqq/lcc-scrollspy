@@ -1,4 +1,4 @@
-# vue2-scrollspy
+# lcc-scrollspy
 
 [![Vue 2.x](https://img.shields.io/badge/Vue-2.x-brightgreen.svg)](https://vuejs.org/v2/guide/)
 
