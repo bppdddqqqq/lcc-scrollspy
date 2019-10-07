@@ -10,7 +10,12 @@ This is a corrected fork from : https://ibufu.github.io/vue2-scrollspy/ or [Jsfi
 
 ### NPM
 ```
-$ npm install vue2-scrollspy --save
+$ npm install lcc-scrollspy --save
+```
+
+### Yarn
+```
+$ yarn add lcc-scrollspy
 ```
 
 ## Basic Usage
@@ -46,10 +51,22 @@ Vue.use(Scrollspy, options);
 </div>
 ```
 
+### Client only usage
+Since this plugin does not support SSR some static site generator like Gridsome our Nuxt require to use this only on client side
+```js
+export default function (Vue, { router, head, isClient }) {
+  if (process.isClient) {
+    const scrollSpy = require('lcc-scrollspy');
+    Vue.use(scrollSpy.install, {
+      easing: scrollSpy.Easing.Cubic.In
+    });
+  }
+```
+
 ### Old Browsers
 Old Browsers like IE11:
 ```js
-import Scrollspy from "vue2-scrollspy/dist/index";
+import Scrollspy from "lcc-scrollspy/dist/index";
 Vue.use(Scrollspy);
 ```
 
@@ -91,7 +108,7 @@ select all links.
 
 Example:
 ```js
-import scrollSpy, { Easing } from 'vue2-scrollspy';
+import scrollSpy, { Easing } from 'lcc-scrollspy';
 
 Vue.use(scrollSpy, {
   easing: Easing.Cubic.In
