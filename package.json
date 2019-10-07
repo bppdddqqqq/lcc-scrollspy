@@ -1,6 +1,6 @@
 {
   "name": "lcc-scrollspy",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "Scrollspy for Vue2",
   "main": "dist/index.js",
   "module": "src/index.js",
