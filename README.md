@@ -8,15 +8,7 @@ This is a corrected fork from : https://ibufu.github.io/vue2-scrollspy/ or [Jsfi
 
 ## Installation
 
-### NPM
-```
-$ npm install lcc-scrollspy --save
-```
-
-### Yarn
-```
-$ yarn add lcc-scrollspy
-```
+This fork contains modifications to suite my needs and fixes. It's not meant for internal usage.
 
 ## Basic Usage
 ```js
