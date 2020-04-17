@@ -226,6 +226,8 @@ const install = (Vue, options) => {
       onScroll()
     },
     unbind: function (el) {
+      if (el[scrollSpycontext] == null)
+        return;
       const { eventEl, onScroll } = el[scrollSpyContext]
       eventEl.removeEventListener('scroll', onScroll)
     }
